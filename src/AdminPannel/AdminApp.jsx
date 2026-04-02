@@ -4,13 +4,14 @@ import { Route, Routes } from "react-router-dom";
 import AdminLayout from "./AdminLayout";
 import AdminDashBoard from "./Pages/AdminDashBoard";
 import UsersManage from "./Pages/UsersManage";
-import PublisherRequests from "./Pages/publisherRequests";
+// import PublisherRequests from "./Pages/publisherRequests";
 import PublisherManage from "./Pages/PublisherManage";
 import AdminBlog from "./Components/Adminaddblog/AdminBlog";
 import AllPendingBlogs from "./Pages/AllPendingBlogs";
 import AdminModeratedBlogs from "./Pages/AdminModeratedBlogs";
 import AdminBlogView from "./Components/AdminBlogView/AdminBlogView";
 import AdminComments from "./Pages/AdminComments";
+import PublisherRequests from "./Pages/PublisherRequests";
 
 const AdminApp = () => {
   return (
